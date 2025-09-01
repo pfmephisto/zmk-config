@@ -55,23 +55,38 @@ parse_config:
     '&u_macro_u_bt_sel_2': clear
     '&u_macro_u_bt_sel_3': clear
     '&u_macro_u_bt_sel_4': clear
-    '&mmv MOVE_LEFT' : ⇦
-    '&mmv MOVE_DOWN' : ⇩
-    '&mmv MOVE_UP' : ⇧
-    '&mmv MOVE_RIGHT' : ⇨
+    '&mmv MOVE_LEFT' : $$mdi:arrow-left-bold$$
+    '&mmv MOVE_DOWN' : $$mdi:arrow-down-bold$$
+    '&mmv MOVE_UP' : $$mdi:arrow-up-bold$$
+    '&mmv MOVE_RIGHT' : $$mdi:arrow-right-bold$$
     '&mkp MB3' : M
     '&mkp MB1' : L
     '&mkp MB2' : R
-    '&msc SCRL_LEFT' : ⇐
-    '&msc SCRL_DOWN' : ⇓
-    '&msc SCRL_UP' : ⇑
-    '&msc SCRL_RIGHT' : ⇒
+    '&msc SCRL_LEFT' : $$mdi:arrow-left-bold-outline$$
+    '&msc SCRL_DOWN' : $$mdi:arrow-down-bold-outline$$
+    '&msc SCRL_UP' : $$mdi:arrow-up-bold-outline$$
+    '&msc SCRL_RIGHT' : $$mdi:arrow-right-bold-outline$$
     '&u_soft_off' : BOOT
     '&kp C_PP' : $$mdi:play-pause$$
     '&kp C_STOP ' : $$mdi:stop$$
     '&kp C_MUTE' : $$mdi:volume-mute$$
     '&kp C_VOL_UP' : $$mdi:volume-plus$$
     '&kp C_VOL_DN' : $$mdi:volume-minus$$
+    '&kp LSHFT' : $$mdi:apple-keyboard-shift$$
+    '&kp LCTRL' : Ctl
+    '&kp LALT' : Alt
+    '&kp RALT' : AltGr
+    '&kp LGUI' : $$mdi:linux$$
+    '&u_rgb_tog' : $$mdi:lightbulb-off-outline$$
+    '&u_rgb_bri' : $$mdi:lightbulb-on-50$$
+    '&u_rgb_hui' : $$mdi:palette$$
+    '&u_rgb_sai' : $$mdi:invert-colors$$
+    '&u_rgb_eff' : $$mdi:auto-mode$$
+    '&u_out_tog' : $$mdi:usb$$
+    '&u_ep_tog' : $$mdi:power-plug$$
+    '&kp C_PREV' : $$mdi:page-previous-outline$$
+    '&kp C_NEXT' : $$mdi:page-next-outline$$
+    '&caps_word' : $$mdi:keyboard-caps$$
   sticky_label: sticky
   toggle_label: toggle
   tap_toggle_label: tap-toggle
@@ -161,6 +176,28 @@ parse_config:
     NUHS: '#'
     TILDE2: '~'
     mmv MOVE_LEFT: <
+    BT_SEL: $$mdi:bluetooth-connect$$
+    RET: $$mdi:keyboard-return$$
+    BSPC: $$mdi:backspace-outline$$
+    DEL: $$mdi:backspace-reverse-outline$$
+    SPACE: $$mdi:keyboard-space$$
+    TAB: $$mdi:keyboard-tab$$
+    ESC: $$mdi:keyboard-esc$$
+    PSCRN: $$mdi:fit-to-screen$$
+    SLCK: $$mdi:arrow-vertical-lock$$
+    PAUSE_BREAK: $$mdi:coffee$$
+    K_UNDO: $$mdi:undo$$
+    K_AGAIN: $$mdi:repeat$$
+    K_PASTE: $$mdi:content-paste$$
+    K_COPY: $$mdi:content-copy$$
+    K_CUT: $$mdi:content-cut$$
+    LEFT: $$mdi:arrow-left-bold$$
+    DOWN: $$mdi:arrow-down-bold$$
+    UP: $$mdi:arrow-up-bold$$
+    RIGHT: $$mdi:arrow-right-bold$$
+    HOME: $$mdi:home$$
+    PG_DN: $$mdi:arrow-up-bold-box-outline$$
+    PG_UP: $$mdi:arrow-down-bold-box-outline$$
   zmk_combos: {}
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
