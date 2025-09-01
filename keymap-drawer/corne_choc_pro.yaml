@@ -11,32 +11,32 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LSHFT}
+  - {t: A, h: '$$mdi:linux$$'}
+  - {t: S, h: Alt}
+  - {t: D, h: Ctl}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - H
-  - {t: J, h: LSHFT}
-  - {t: K, h: LCTRL}
-  - {t: L, h: LALT}
-  - {t: '''', h: LGUI}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: Ctl}
+  - {t: L, h: Alt}
+  - {t: '''', h: '$$mdi:linux$$'}
   - {t: Z, h: Button}
-  - {t: X, h: RALT}
+  - {t: X, h: AltGr}
   - C
   - V
   - B
   - N
   - M
   - ','
-  - {t: ., h: RALT}
+  - {t: ., h: AltGr}
   - {t: /, h: Button}
-  - {t: ESC, h: Media}
-  - {t: SPACE, h: Nav}
-  - {t: TAB, h: Mouse}
-  - {t: RET, h: Sym}
-  - {t: BSPC, h: Num}
-  - {t: DEL, h: Fun}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:keyboard-space$$', h: Nav}
+  - {t: '$$mdi:keyboard-tab$$', h: Mouse}
+  - {t: '$$mdi:keyboard-return$$', h: Sym}
+  - {t: '$$mdi:backspace-outline$$', h: Num}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
   Extra:
   - Q
   - W
@@ -48,32 +48,32 @@ layers:
   - U
   - Y
   - ''''
-  - {t: A, h: LGUI}
-  - {t: R, h: LALT}
-  - {t: S, h: LCTRL}
-  - {t: T, h: LSHFT}
+  - {t: A, h: '$$mdi:linux$$'}
+  - {t: R, h: Alt}
+  - {t: S, h: Ctl}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - K
-  - {t: N, h: LSHFT}
-  - {t: E, h: LCTRL}
-  - {t: I, h: LALT}
-  - {t: O, h: LGUI}
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: Ctl}
+  - {t: I, h: Alt}
+  - {t: O, h: '$$mdi:linux$$'}
   - {t: Z, h: Button}
-  - {t: X, h: RALT}
+  - {t: X, h: AltGr}
   - C
   - D
   - V
   - M
   - H
   - ','
-  - {t: ., h: RALT}
+  - {t: ., h: AltGr}
   - {t: /, h: Button}
-  - {t: ESC, h: Media}
-  - {t: SPACE, h: Nav}
-  - {t: TAB, h: Mouse}
-  - {t: RET, h: Sym}
-  - {t: BSPC, h: Num}
-  - {t: DEL, h: Fun}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:keyboard-space$$', h: Nav}
+  - {t: '$$mdi:keyboard-tab$$', h: Mouse}
+  - {t: '$$mdi:keyboard-return$$', h: Sym}
+  - {t: '$$mdi:backspace-outline$$', h: Num}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
   Tap:
   - Q
   - W
@@ -85,63 +85,63 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LSHFT}
+  - {t: A, h: '$$mdi:linux$$'}
+  - {t: S, h: Alt}
+  - {t: D, h: Ctl}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - H
-  - {t: J, h: LSHFT}
-  - {t: K, h: LCTRL}
-  - {t: L, h: LALT}
-  - {t: '''', h: LGUI}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: Ctl}
+  - {t: L, h: Alt}
+  - {t: '''', h: '$$mdi:linux$$'}
   - {t: Z, h: Button}
-  - {t: X, h: RALT}
+  - {t: X, h: AltGr}
   - C
   - V
   - B
   - N
   - M
   - ','
-  - {t: ., h: RALT}
+  - {t: ., h: AltGr}
   - {t: /, h: Button}
-  - {t: ESC, h: Media}
-  - {t: SPACE, h: Nav}
-  - {t: TAB, h: Mouse}
-  - {t: RET, h: Sym}
-  - {t: BSPC, h: Num}
-  - {t: DEL, h: Fun}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:keyboard-space$$', h: Nav}
+  - {t: '$$mdi:keyboard-tab$$', h: Mouse}
+  - {t: '$$mdi:keyboard-return$$', h: Sym}
+  - {t: '$$mdi:backspace-outline$$', h: Num}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
   Button:
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - AGAIN
-  - AGAIN
-  - PASTE
-  - COPY
-  - CUT
-  - UNDO
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
+  - $$mdi:undo$$
+  - $$mdi:content-cut$$
+  - $$mdi:content-copy$$
+  - $$mdi:content-paste$$
+  - $$mdi:repeat$$
+  - $$mdi:repeat$$
+  - $$mdi:content-paste$$
+  - $$mdi:content-copy$$
+  - $$mdi:content-cut$$
+  - $$mdi:undo$$
+  - $$mdi:linux$$
+  - Alt
+  - Ctl
+  - $$mdi:apple-keyboard-shift$$
   - ''
   - ''
-  - LSHFT
-  - LCTRL
-  - LALT
-  - LGUI
-  - {t: UNDO, type: held}
-  - CUT
-  - COPY
-  - PASTE
-  - AGAIN
-  - AGAIN
-  - PASTE
-  - COPY
-  - CUT
-  - UNDO
+  - $$mdi:apple-keyboard-shift$$
+  - Ctl
+  - Alt
+  - $$mdi:linux$$
+  - {t: '$$mdi:undo$$', type: held}
+  - $$mdi:content-cut$$
+  - $$mdi:content-copy$$
+  - $$mdi:content-paste$$
+  - $$mdi:repeat$$
+  - $$mdi:repeat$$
+  - $$mdi:content-paste$$
+  - $$mdi:content-copy$$
+  - $$mdi:content-cut$$
+  - $$mdi:undo$$
   - M
   - L
   - R
@@ -154,67 +154,67 @@ layers:
   - Extra
   - Base
   - ''
-  - AGAIN
-  - PASTE
-  - COPY
-  - CUT
-  - UNDO
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
+  - $$mdi:repeat$$
+  - $$mdi:content-paste$$
+  - $$mdi:content-copy$$
+  - $$mdi:content-cut$$
+  - $$mdi:undo$$
+  - $$mdi:linux$$
+  - Alt
+  - Ctl
+  - $$mdi:apple-keyboard-shift$$
   - ''
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - {t: '&caps_word', s: CAPS}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:keyboard-caps$$', s: CAPS}
   - ''
-  - RALT
+  - AltGr
   - Num
   - Nav
   - ''
-  - HOME
-  - PG DN
-  - PG UP
+  - $$mdi:home$$
+  - $$mdi:arrow-up-bold-box-outline$$
+  - $$mdi:arrow-down-bold-box-outline$$
   - END
   - INS
   - ''
   - {type: held}
   - ''
-  - RET
-  - BSPC
-  - DEL
+  - $$mdi:keyboard-return$$
+  - $$mdi:backspace-outline$$
+  - $$mdi:backspace-reverse-outline$$
   Mouse:
   - BOOT
   - Tap
   - Extra
   - Base
   - ''
-  - AGAIN
-  - PASTE
-  - COPY
-  - CUT
-  - UNDO
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
+  - $$mdi:repeat$$
+  - $$mdi:content-paste$$
+  - $$mdi:content-copy$$
+  - $$mdi:content-cut$$
+  - $$mdi:undo$$
+  - $$mdi:linux$$
+  - Alt
+  - Ctl
+  - $$mdi:apple-keyboard-shift$$
   - ''
-  - ⇦
-  - ⇩
-  - ⇧
-  - ⇨
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   - ''
   - ''
-  - RALT
+  - AltGr
   - Sym
   - Mouse
   - ''
-  - ⇐
-  - ⇓
-  - ⇑
-  - ⇒
+  - $$mdi:arrow-left-bold-outline$$
+  - $$mdi:arrow-down-bold-outline$$
+  - $$mdi:arrow-up-bold-outline$$
+  - $$mdi:arrow-right-bold-outline$$
   - ''
   - ''
   - ''
@@ -228,31 +228,31 @@ layers:
   - Extra
   - Base
   - ''
-  - {t: RGB EFF, s: RGB EFR}
-  - {t: RGB HUI, s: RGB HUD}
-  - {t: RGB SAI, s: RGB SAD}
-  - {t: RGB BRI, s: RGB BRD}
-  - {t: RGB TOG, s: RGB OFF}
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
+  - $$mdi:auto-mode$$
+  - $$mdi:palette$$
+  - $$mdi:invert-colors$$
+  - $$mdi:lightbulb-on-50$$
+  - $$mdi:lightbulb-off-outline$$
+  - $$mdi:linux$$
+  - Alt
+  - Ctl
+  - $$mdi:apple-keyboard-shift$$
   - ''
-  - PREV
+  - $$mdi:page-previous-outline$$
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
-  - NEXT
-  - {t: EP TOG, s: EP OFF}
+  - $$mdi:page-next-outline$$
+  - $$mdi:power-plug$$
   - ''
-  - RALT
+  - AltGr
   - Fun
   - Media
   - ''
-  - {t: BT, h: '0', s: clear}
-  - {t: BT, h: '1', s: clear}
-  - {t: BT, h: '2', s: clear}
-  - {t: BT, h: '3', s: clear}
-  - {t: OUT TOG, s: OUT USB}
+  - {t: '$$mdi:bluetooth-connect$$', h: '0', s: clear}
+  - {t: '$$mdi:bluetooth-connect$$', h: '1', s: clear}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2', s: clear}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3', s: clear}
+  - $$mdi:usb$$
   - {type: held}
   - ''
   - ''
@@ -276,10 +276,10 @@ layers:
   - '6'
   - '='
   - ''
-  - LSHFT
-  - LCTRL
-  - LALT
-  - LGUI
+  - $$mdi:apple-keyboard-shift$$
+  - Ctl
+  - Alt
+  - $$mdi:linux$$
   - '`'
   - '1'
   - '2'
@@ -288,7 +288,7 @@ layers:
   - ''
   - Num
   - Nav
-  - RALT
+  - AltGr
   - ''
   - .
   - '0'
@@ -313,10 +313,10 @@ layers:
   - ^
   - +
   - ''
-  - LSHFT
-  - LCTRL
-  - LALT
-  - LGUI
+  - $$mdi:apple-keyboard-shift$$
+  - Ctl
+  - Alt
+  - $$mdi:linux$$
   - '~'
   - '!'
   - '@'
@@ -325,7 +325,7 @@ layers:
   - ''
   - Sym
   - Mouse
-  - RALT
+  - AltGr
   - ''
   - (
   - )
@@ -338,7 +338,7 @@ layers:
   - F7
   - F8
   - F9
-  - PSCRN
+  - $$mdi:fit-to-screen$$
   - ''
   - Base
   - Extra
@@ -348,25 +348,25 @@ layers:
   - F4
   - F5
   - F6
-  - SLCK
+  - $$mdi:arrow-vertical-lock$$
   - ''
-  - LSHFT
-  - LCTRL
-  - LALT
-  - LGUI
+  - $$mdi:apple-keyboard-shift$$
+  - Ctl
+  - Alt
+  - $$mdi:linux$$
   - F10
   - F1
   - F2
   - F3
-  - PAUSE BREAK
+  - $$mdi:coffee$$
   - ''
   - Fun
   - Media
-  - RALT
+  - AltGr
   - ''
   - APP
-  - SPACE
-  - TAB
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-tab$$
   - ''
   - ''
   - {type: held}
