@@ -41,7 +41,7 @@
 
         enableZmkStudio = true;
 
-        zephyrDepsHash = "sha256-+2Df42t5ch1ca+hohNEltVYg6OKNPy+ctClYa3JR0mA=";
+        zephyrDepsHash = "sha256-gsqiTDJLAihVyBXVFlgXwqRmlREcFJctKpl4tEWmVlY=";
 
         meta = {
           description = "ZMK firmware";
@@ -54,8 +54,17 @@
       update = zmk-nix.packages.${system}.update;
     });
 
-    devShells = forAllSystems (system: {
-      default = zmk-nix.devShells.${system}.default;
-    });
+    devShells = forAllSystems (
+      system: let
+        pkgs = import nixpkgs {
+          inherit system;
+          config.allowUnfree = true;
+        };
+      in {
+        default = zmk-nix.devShells.${system}.default.overrideAttrs (old: {
+          buildInputs = (old.buildInputs or []) ++ [pkgs.claude-code];
+        });
+      }
+    );
   };
 }
